@@ -146,11 +146,11 @@ nav {}
 .text {
     color: aliceblue;
     width: 30%;
-    margin-left: 210px;
+    margin-left: 250px;
 }
 
 .image img {
-    margin-right: 250px;
+    margin-right: 280px;
     width: 250px;
     transition: transform 0.8s ease, box-shadow 0.3s ease;
 }
@@ -163,11 +163,11 @@ nav {}
 .textt {
     color: aliceblue;
     width: 30%;
-    margin-right: 210px;
+    margin-right: 280px;
 }
 
 .imagee img {
-    margin-left: 200px;
+    margin-left: 240px;
     width: 300px;
     transition: transform 0.8s ease, box-shadow 0.3s ease;
 }
@@ -212,7 +212,7 @@ nav {}
         transform: translateX(-500px);
       }
       100%{
-        transform: translateX(120px);
+        transform: translateX(180px);
         opacity: 1;
       }
     }
@@ -231,11 +231,11 @@ nav {}
 
 
 .imag{
-    margin-right: 170px;
+    margin-right: 190px;
 }
 
 .imagII{
-    margin-left: 170px;
+    margin-left: 190px;
 }
 
 .infoII{
@@ -255,7 +255,7 @@ nav {}
         transform: translateX(500px);
       }
       100%{
-        transform: translateX(-120px);
+        transform: translateX(-180px);
         opacity: 1;
       }
     }
@@ -268,7 +268,7 @@ nav {}
 
     .vidguk{
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         gap: 15px;
         color: black;
         border: white;
@@ -278,21 +278,90 @@ nav {}
         padding: 15px;
         margin: 10px 0;
         transition: transform 0.2s ease;
-
+        width: 500px;
+        margin-left: 50px;
     }
 
     .vidguk:hover{
         transform: scale(1.02);
     }
 
-    .vidguk h4{
+    .vidguk img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .text-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-part h4{
         margin: 0;
         font-size: 1rem;
         color: #333;
     }
 
-    .vidguk p{
+    .text-part p{
         margin: 5px 0 0;
         font-size: 0.95rem;
         color: #555;
     }
+
+    h1{
+        color: white;
+    }
+
+    .reviews-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.reviews-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.reviews-right {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews-right img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+footer {
+    display: flex;
+    justify-content: baseline;
+    border-radius: 10px;
+  background-color: white;
+  height: 90px;
+  width: 100%;
+}
+
+footer img{
+    margin-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+}
